@@ -1,0 +1,150 @@
+@charset "UTF-8";
+    .calendar {
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+      color: #333;
+      max-width: 300px;
+      margin: 0 auto;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .calendar .header {
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    .calendar .weekdays {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+    .calendar .weekdays .weekday {
+      flex: 1;
+      text-align: center;
+    }
+    .calendar .days {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      gap: 5px;
+    }
+    .calendar .days .day {
+      text-align: center;
+      padding: 5px;
+      border: 1px solid #ccc;
+      background-color: #f9f9f9;
+    }
+    .calendar .days .day:hover {
+      background-color: #e0e0e0;
+      cursor: pointer;
+    }
+    .calendar .days .day.active {
+      background-color: #000;
+      color: #fff;
+    }
+    .calendar .event-form {
+      margin-top: 20px;
+    }
+    .calendar .event-form input[type="text"] {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 10px;
+    }
+    .calendar .event-form button {
+      display: block;
+      width: 100%;
+      padding: 5px;
+      background-color: #000;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+    .calendar .event-list {
+      margin-top: 20px;
+    }
+    .calendar .event-list .event {
+      margin-bottom: 10px;
+    }
+    .calendar .event-list .event .date {
+      font-weight: bold;
+    }
+    .calendar .event-list .event .content {
+      margin-left: 10px;
+    }
+    
+    
+    
+    
+    body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: #333;
+  margin: 0 auto;
+  padding: 20px 0 0 0;
+}
+
+header {
+  background-color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+header img {
+  width: 100px;
+  height: 100px;
+}
+
+header h1 {
+  margin: 10px 0;
+}
+
+section {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+section h2 {
+  margin-top: 0;
+}
+
+#team-members ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#team-members li {
+  width: 200px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+#team-members img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.social-media {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.social-media li {
+  margin-right: 10px;
+}
+
+.social-media img {
+  width: 30px;
+  height: 30px;
+}
+    
